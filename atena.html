@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CDC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="design1.css">
+</head>
+<body>
+<div class="container">
+    <img src="orase.jpg" alt="DesenOrase">
+    <div class="center"><b>Ora&#351e europene</b></div>
+</div>
+<br>
+<ul>
+    <li><a href="index.html">Prima pagin&#259</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Ora&#351e</a>
+        <div class="dropdown-content">
+            <a href="paris.html">Paris</a>
+            <a href="londra.html">Londra</a>
+            <a href="roma.html">Roma</a>
+            <a href="amsterdam.html">Amsterdam</a>
+            <a href="viena.html">Viena</a>
+            <a href="atena.html">Atena</a>
+            <a href="bucuresti.html">Bucuresti</a>
+            <a href="copenhaga.html">Copenhaga</a>
+            <a href="budapesta.html">Budapesta</a>
+            <a href="praga.html">Praga</a>
+        </div>
+    </li>
+    <li><a href="galerie.html">Galerie</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li style="float:right" id="myBtn"><a href="#contact">Contact</a></li>
+</ul>
+<br>
+<div class="text"><img src="atena.jpg" align="left"/>
+<p>Atena (în greaca modernă Αθήνα, Athina [singular], în greaca clasică Ἀθῆναι, Athēnai [plural]) este capitala Greciei. Atena a cunoscut o evoluție glorioasă, mai ales în Grecia Antică, fiind locuită de oameni încă din Epoca Bronzului și guvernată până în jurul anului 1000 î.Hr. de regi ionieni.</p>
+<p>Acropola din Atena a fost înscrisă în anul 1987 pe lista patrimoniului cultural mondial UNESCO</p>
+<p>În Grecia Antică, numele Atenei era Ἀθῆναι atʰɛ̂ːnai, la plural, fiind legat de numele zeiței Atena (în dialectul atic, Ἀθηνᾶ [atʰɛːnâː] și în cel ionic, Ἀθήνη [aˈtʰɛːnɛː]), cu înțelesul „atenienii”. În greaca folosită de Homer, numele orașului apărea în forma de singular (Ἀθήνη)[2] apoi a luat forma de plural, ca și Θῆβαι (Thēbai), Μυκῆναι (Mukēnai) și Δελφοί (Delphoi).</p>
+<p>Printre atenienii antici circula o legendă care explica felul în care și-a luat orașul numele, legendă care a stat la baza sculpturii de pe frontonul vestic al Parthenonului. Conform acestei legende, atât Atena cât și Poseidon au cerut să fie patroni ai orașului și să-i dea numele lor, astfel că s-au întrecut pentru a obține onoarea, fiecare oferind un dar orașului. Poseidon a creat un izvor de apă sărată lovind pământul cu tridentul său, pentru a simboliza puterea mării. Atena a creat în schimb măslinul, simbolizând pacea și prosperitatea. Atenienii, conduși de Cecrops, au acceptat măslinul și au botezat orașul Atena.</p>
+<p>În secolul al XIX-lea, Ἀθῆναι a fost readoptat ca nume al orașului. După ce varianta katharevousa a limbii grece a fost abandonată în anii 1970, în greaca demotică modernă numele oficial al orașului a devenit Αθήνα (Athína, [aˈθina]).</p>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><b>Realizat de:</b></p>
+        <p><b>Dan Teodora-Alexandra</b></p>
+        <p><b>Liceul Teoretic "Pavel Dan"</b></p>
+        <p><b>Clasa a XII-a A</b></p>
+    </div>
+
+</div>
+
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>

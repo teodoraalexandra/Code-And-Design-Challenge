@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CDC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="design1.css">
+</head>
+<body>
+<div class="container">
+    <img src="orase.jpg" alt="DesenOrase">
+    <div class="center"><b>Ora&#351e europene</b></div>
+</div>
+<br>
+<ul>
+    <li><a href="index.html">Prima pagin&#259</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Ora&#351e</a>
+        <div class="dropdown-content">
+            <a href="paris.html">Paris</a>
+            <a href="londra.html">Londra</a>
+            <a href="roma.html">Roma</a>
+            <a href="amsterdam.html">Amsterdam</a>
+            <a href="viena.html">Viena</a>
+            <a href="atena.html">Atena</a>
+            <a href="bucuresti.html">Bucuresti</a>
+            <a href="copenhaga.html">Copenhaga</a>
+            <a href="budapesta.html">Budapesta</a>
+            <a href="praga.html">Praga</a>
+        </div>
+    </li>
+    <li><a href="galerie.html">Galerie</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li style="float:right" id="myBtn"><a href="#contact">Contact</a></li>
+</ul>
+<br>
+<div style="border: solid #1E8346 5px;">
+<p align="center"><iframe width="1000" height="500" src="https://www.youtube.com/embed/xoeugiKN5RQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><b>Realizat de:</b></p>
+        <p><b>Dan Teodora-Alexandra</b></p>
+        <p><b>Liceul Teoretic "Pavel Dan"</b></p>
+        <p><b>Clasa a XII-a A</b></p>
+    </div>
+
+</div>
+
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>

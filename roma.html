@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CDC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="design1.css">
+</head>
+<body>
+<div class="container">
+    <img src="orase.jpg" alt="DesenOrase">
+    <div class="center"><b>Ora&#351e europene</b></div>
+</div>
+<br>
+<ul>
+    <li><a href="index.html">Prima pagin&#259</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Ora&#351e</a>
+        <div class="dropdown-content">
+            <a href="paris.html">Paris</a>
+            <a href="londra.html">Londra</a>
+            <a href="roma.html">Roma</a>
+            <a href="amsterdam.html">Amsterdam</a>
+            <a href="viena.html">Viena</a>
+            <a href="atena.html">Atena</a>
+            <a href="bucuresti.html">Bucuresti</a>
+            <a href="copenhaga.html">Copenhaga</a>
+            <a href="budapesta.html">Budapesta</a>
+            <a href="praga.html">Praga</a>
+        </div>
+    </li>
+    <li><a href="galerie.html">Galerie</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li style="float:right" id="myBtn"><a href="#contact">Contact</a></li>
+</ul>
+<br>
+<div class="text"><img src="roma.png" align="left"/>
+<p>Roma este capitala Italiei. Situat pe malul fluviului Tibru, orașul are o istorie îndelungată fiind de-a lungul secolelor capitala Republicii Romane, a Imperiului Roman, a Bisericii Romano-Catolice și a Italiei moderne. Roma are o populație de 2.923.000 persoane. Aria metropolitană are o populație de circa 4 milioane de locuitori. Este capitala regiunii Lazio și a Provinciei Roma.</p>
+<p>Roma este un important centru turistic. Printre monumentele cele mai faimoase se numără Colosseumul și Columna lui Traian. O enclavă a Romei este și statul Vatican, un teritoriu suveran al Sfântului Scaun situat într-un cartier roman. Este cel mai mic stat din lume, și capitala singurei religii care are reprezentație în Națiunile Unite (ca un stat observator non-membru).</P>
+<p>Roma, Caput mundi („Capitala lumii”), la Città Eterna („Orașul etern”), Limen Apostolorum („Pragul apostolilor”), la città dei sette colli („Orașul celor șapte coline”) sau, pur și simplu, l'Urbe („Orașul”), este profund modernă și cosmopolită. Ca unul dintre puținele orașe mari ale Europei care a supraviețuit celui de-al Doilea Război Mondial relativ puțin afectat, centrul Romei rămâne renascentist și baroc în esența sa. Centrul Istoric al Romei este pe lista patrimoniului mondial UNESCO.</p>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><b>Realizat de:</b></p>
+        <p><b>Dan Teodora-Alexandra</b></p>
+        <p><b>Liceul Teoretic "Pavel Dan"</b></p>
+        <p><b>Clasa a XII-a A</b></p>
+    </div>
+
+</div>
+
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>

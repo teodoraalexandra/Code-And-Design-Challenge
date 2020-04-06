@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CDC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="design1.css">
+</head>
+<body>
+<div class="container">
+    <img src="orase.jpg" alt="DesenOrase">
+    <div class="center"><b>Ora&#351e europene</b></div>
+</div>
+<br>
+<ul>
+    <li><a href="index.html">Prima pagin&#259</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Ora&#351e</a>
+        <div class="dropdown-content">
+            <a href="paris.html">Paris</a>
+            <a href="londra.html">Londra</a>
+            <a href="roma.html">Roma</a>
+            <a href="amsterdam.html">Amsterdam</a>
+            <a href="viena.html">Viena</a>
+            <a href="atena.html">Atena</a>
+            <a href="bucuresti.html">Bucuresti</a>
+            <a href="copenhaga.html">Copenhaga</a>
+            <a href="budapesta.html">Budapesta</a>
+            <a href="praga.html">Praga</a>
+        </div>
+    </li>
+    <li><a href="galerie.html">Galerie</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li style="float:right" id="myBtn"><a href="#contact">Contact</a></li>
+</ul>
+<br>
+<div class="text"><img src="londra.jpg" align="left"/>
+<p>Londra (în engleză London) este capitala Angliei și a Regatului Unit. Este cel mai important centru politic, financiar (datorită City-ului), cultural și artistic al Regatului Unit, și unul dintre cele mai importante orașe ale lumii.</p>
+<p>Populația Londrei este de 7.421.229 locuitori (la 1 ianuarie 2005) în Londra Mare, cărora li se adaugă alte câteva milioane din zona metropolitană. Există o imensă diversitate de etnii, culturi și religii, Londra fiind unul din cele mai cosmopolite orașe din Europa și din lume. Aici locuiesc, permanent sau temporar, mulți dintre cei mai bogați oameni ai lumii.</p>
+<p>În Londra se găsesc sediile a numeroase instituții și corporații de importanță globală; multe clădiri importante: palate, muzee, teatre, săli de concerte, aeroporturi, stații de cale ferată, numeroase ambasade și consulate.</p>
+<p>Westminster (Palatul și Abația) și Biserica Sf. Margareta din Londra au fost înscrise în anul 1987 pe lista patrimoniului cultural mondial UNESCO. Simbolul Londrei este Big Ben-ul, turnul cu ceas al Palatului Parlamentului, construit în secolul al XIX-lea în stil neogotic.</p>
+<p>Conform unei analize publicate de Culture Trip în 2016, face parte din primele zece cele mai moderne orașe din lume.</p>
+<p>Inițial o așezare întemeiată de celți, a fost capitala provinciei romane Britannia, având numele de Londinium și a devenit capitala Angliei de la sfârșitul secolului al XI-lea. În prima jumătate a secolului XXI, Londra, care adăpostește 12.5% din populația Regatului Unit, continuă sa fie unul dintre cele mai importante centre mondiale în privința finanțelor, băncilor comerciale și a companiilor de asigurări.</p>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><b>Realizat de:</b></p>
+        <p><b>Dan Teodora-Alexandra</b></p>
+        <p><b>Liceul Teoretic "Pavel Dan"</b></p>
+        <p><b>Clasa a XII-a A</b></p>
+    </div>
+
+</div>
+
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CDC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="design1.css">
+</head>
+<body>
+<div class="container">
+    <img src="orase.jpg" alt="DesenOrase">
+    <div class="center"><b>Ora&#351e europene</b></div>
+</div>
+<br>
+<ul>
+    <li><a href="index.html">Prima pagin&#259</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Ora&#351e</a>
+        <div class="dropdown-content">
+            <a href="paris.html">Paris</a>
+            <a href="londra.html">Londra</a>
+            <a href="roma.html">Roma</a>
+            <a href="amsterdam.html">Amsterdam</a>
+            <a href="viena.html">Viena</a>
+            <a href="atena.html">Atena</a>
+            <a href="bucuresti.html">Bucuresti</a>
+            <a href="copenhaga.html">Copenhaga</a>
+            <a href="budapesta.html">Budapesta</a>
+            <a href="praga.html">Praga</a>
+        </div>
+    </li>
+    <li><a href="galerie.html">Galerie</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li style="float:right" id="myBtn"><a href="#contact">Contact</a></li>
+</ul>
+<br>
+<div class="text"><img src="europa.png" align="left"/>
+<p>Europa este, convențional, unul dintre cele șapte continente. Cuprinzând peninsula Eurasiei, Europa este separată de Asia de Munții Ural, râul Ural și Marea Caspică la est, și de Munții Caucaz la sud-est. Europa are deschidere, în nord, la Oceanul Arctic, în vest la Oceanul Atlantic, în sud la Marea Mediterană, iar în sud-est la Marea Neagră și la căile ei de legătură spre Marea Mediterană. Totuși, granițele Europei — un concept ce datează încă din antichitate — sunt oarecum arbitrare, deoarece termenul de continent poate face referire la diferențele de ordin cultural și politic sau cele de ordin fizico-geografic. Andreas Kaplan a definit Europa ca oferind „un maxim de diversitate culturală într-o distanță geografică minimă”.</p>
+<p>După suprafață, Europa este al doilea cel mai mic continent, acoperind 10.180.000 de kilometri pătrați sau 2% din suprafața Pământului și 6,8% din suprafața terestră. Din cele 50 de state ale Europei, Rusia este cel mai mare (atât ca suprafață, cât și ca populație), în timp ce Vaticanul este cel mai mic. Europa este al treilea cel mai populat continent după Asia și Africa, cu o populație de 731 de milioane de locuitori, reprezentând 11% din populația lumii; totuși, potrivit estimărilor Organizației Națiunilor Unite, ponderea Europei va scădea la 7% până în 2050.</p>
+<p>Europa, în particular Grecia Antică, este locul de naștere al culturii vestice. Națiunile europene au jucat, începând din secolul al XVI-lea încoace, un rol predominant în politica mondială, în special după începuturile colonialismului. Între secolele al XVII-lea și al XX-lea, țările europene au controlat Americile, cea mai mare parte din Africa, Australia, și porțiuni întinse din Asia. În 1900, cota populației Europei din populația lumii a fost de 25%. Schimbările demografice și cele două războaie mondiale au condus la declinul dominației europene în politica mondială, la mijlocul secolului al XX-lea, pe măsură ce Statele Unite și Uniunea Sovietică își sporeau influența. În timpul Războiului Rece, Europa a fost divizată de-a lungul Cortinei de Fier între NATO, în partea de vest, și Pactul de la Varșovia, în est. Integrarea europeană a condus la fondarea Consiliului Europei și Uniunii Europene în Europa de Vest, amândouă extinzându-și granițele spre est, dupa dezmembrarea Uniunii Sovietice, în 1991.</p>
+<p>Europa are o lungă istorie a unor mari reușite culturale și economice, începând din Epoca Bronzului. Originile culturii vestice sunt, în mod general, atribuite grecilor antici și Imperiului Roman, care a supus întreg continentul pentru mai multe secole. După declinul Imperiului Roman, Europa a intrat într-o perioadă de stagnare, cunoscută sub numele de Evul Mediu, care s-a terminat prin fenomenul numit Renaștere și prin Noii Monarhi, ce aveau să marcheze noi descoperiri, explorări și creșterea cunoștințelor științifice. Din secolul XV, națiunile europene, în special Spania, Portugalia, Franța și Marea Britanie, au construit mari imperii coloniale, cu dependențe în Africa, America și Asia. Revoluția Industrială a început în secolul XVIII, ducând la o prosperitate sporită și, implicit, la o creștere de populație. După Al Doilea Război Mondial și până la sfârșitul Războiului Rece, Europa a fost împărțită în două mari blocuri politice și economice: națiunile comuniste din Europa de Est și țările capitaliste din Europa de Vest. În jurul anului 1991, blocul estic a fost dezintegrat, după ce a fost vândut la Malta. Europa s-a format prin amestecul din moștenirea greco-roman,feudalism și creștinism.</p>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><b>Realizat de:</b></p>
+        <p><b>Dan Teodora-Alexandra</b></p>
+        <p><b>Liceul Teoretic "Pavel Dan"</b></p>
+        <p><b>Clasa a XII-a A</b></p>
+    </div>
+
+</div>
+
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>

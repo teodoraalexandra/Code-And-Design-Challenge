@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CDC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="design1.css">
+<style>
+table {
+    border-collapse: collapse;
+}
+
+table, td, th{
+    border: 5px solid #1E8346;
+} 
+
+table img {
+	height: 300px;
+	width: 350px;
+}
+
+h1 {
+	font-size: 50px;
+    font-family: Garamond, sans-serif;
+    color: #1E8346;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <img src="orase.jpg" alt="DesenOrase">
+    <div class="center"><b>Ora&#351e europene</b></div>
+</div>
+<br>
+<ul>
+    <li><a href="index.html">Prima pagin&#259</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Ora&#351e</a>
+        <div class="dropdown-content">
+            <a href="paris.html">Paris</a>
+            <a href="londra.html">Londra</a>
+            <a href="roma.html">Roma</a>
+            <a href="amsterdam.html">Amsterdam</a>
+            <a href="viena.html">Viena</a>
+            <a href="atena.html">Atena</a>
+            <a href="bucuresti.html">Bucuresti</a>
+            <a href="copenhaga.html">Copenhaga</a>
+            <a href="budapesta.html">Budapesta</a>
+            <a href="praga.html">Praga</a>
+        </div>
+    </li>
+    <li><a href="galerie.html">Galerie</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li style="float:right" id="myBtn"><a href="#contact">Contact</a></li>
+</ul>
+<br>
+<div style="border: solid #1E8346 5px;">
+<br><br>
+	<table align="center">
+	<h1 align="center">PARIS</h1>
+	<tr><td><img src="paris1.jpg"></td><td><img src="paris2.jpg"></td><td><img src="paris3.jpg"></td><td><img src="paris4.jpg"></td></tr> <!--PARIS-->
+	</table>
+	
+	<table align="center">
+	<h1 align="center">LONDRA</h1>
+	<tr><td><img src="londra1.jpg"></td><td><img src="londra2.jpg"></td><td><img src="londra3.jpg"></td><td><img src="londra4.jpg"></td></tr> <!--LONDRA-->
+	</table>
+	
+	<table align="center">
+	<h1 align="center">ROMA</h1>
+	<tr><td><img src="roma1.jpg"></td><td><img src="roma2.jpg"></td><td><img src="roma3.jpg"></td><td><img src="roma4.jpg"></td></tr> <!--ROMA-->
+	</table>
+	
+	<table align="center">
+	<h1 align="center">AMSTERDAM</h1>
+	<tr><td><img src="amsterdam3.jpg"></td><td><img src="amsterdam2.jpg"></td><td><img src="amsterdam1.jpg"></td><td><img src="amsterdam4.jpg"></td></tr> <!--AMSTERDAM-->
+	</table>
+	
+	<table align="center">
+	<h1 align="center">VIENA</h1>
+	<tr><td><img src="viena1.jpg"></td><td><img src="viena2.jpg"></td><td><img src="viena3.jpg"></td><td><img src="viena4.jpg"></td></tr> <!--VIENA-->
+	</table>
+	
+	<table align="center">
+	<h1 align="center">ATENA</h1>
+	<tr><td><img src="atena1.jpg"></td><td><img src="atena2.jpg"></td><td><img src="atena3.jpg"></td><td><img src="atena4.jpg"></td></tr> <!--ATENA-->
+	</table>
+	
+	<table align="center">
+	<h1 align="center">BUCUREŞTI</h1>
+	<tr><td><img src="bucuresti1.jpg"></td><td><img src="bucuresti2.jpg"></td><td><img src="bucuresti3.jpg"></td><td><img src="bucuresti4.jpg"></td></tr> <!--BUCURESTI-->
+	</table>
+	
+	<table align="center">
+	<h1 align="center">COPENHAGA</h1>
+	<tr><td><img src="copenhaga1.jpg"></td><td><img src="copenhaga2.jpg"></td><td><img src="copenhaga3.jpg"></td><td><img src="copenhaga4.jpg"></td></tr> <!--COPENHAGA-->
+	</table>
+	
+	<table align="center">
+	<h1 align="center">BUDAPESTA</h1>
+	<tr><td><img src="budapesta1.jpg"></td><td><img src="budapesta2.jpg"></td><td><img src="budapesta3.jpg"></td><td><img src="budapesta4.jpg"></td></tr> <!--BUDAPESTA-->
+	</table>
+	
+	<table align="center">
+	<h1 align="center">PRAGA</h1>
+	<tr><td><img src="praga1.jpg"></td><td><img src="praga2.jpg"></td><td><img src="praga3.jpg"></td><td><img src="praga4.jpg"></td></tr> <!--PRAGA-->
+	</table>
+<br><br>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><b>Realizat de:</b></p>
+        <p><b>Dan Teodora-Alexandra</b></p>
+        <p><b>Liceul Teoretic "Pavel Dan"</b></p>
+        <p><b>Clasa a XII-a A</b></p>
+    </div>
+
+</div>
+
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>

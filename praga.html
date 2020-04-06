@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CDC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="design1.css">
+</head>
+<body>
+<div class="container">
+    <img src="orase.jpg" alt="DesenOrase">
+    <div class="center"><b>Ora&#351e europene</b></div>
+</div>
+<br>
+<ul>
+    <li><a href="index.html">Prima pagin&#259</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Ora&#351e</a>
+        <div class="dropdown-content">
+            <a href="paris.html">Paris</a>
+            <a href="londra.html">Londra</a>
+            <a href="roma.html">Roma</a>
+            <a href="amsterdam.html">Amsterdam</a>
+            <a href="viena.html">Viena</a>
+            <a href="atena.html">Atena</a>
+            <a href="bucuresti.html">Bucuresti</a>
+            <a href="copenhaga.html">Copenhaga</a>
+            <a href="budapesta.html">Budapesta</a>
+            <a href="praga.html">Praga</a>
+        </div>
+    </li>
+    <li><a href="galerie.html">Galerie</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li style="float:right" id="myBtn"><a href="#contact">Contact</a></li>
+</ul>
+<br>
+<div class="text"><img src="praga.jpg" align="left"/>
+<p>Praga (în cehă Praha) este capitala Republicii Cehe. Orașul este situat pe râul Vltava, în Boemia Centrală, și are aproape 1,67 milioane de locuitori, fără a fi luați în calcul și cei aproximativ 300.000 de navetiști, care lucrează în oraș, dar nu locuiesc aici.</p>
+<p>Praga are diferite supranume, printre care Praga mater urbium („mama orașelor”), „Orașul celor o sută de clopotnițe” sau „Orașul de aur”. Din 1992, centrul istoric al Pragăi a fost inclus pe lista UNESCO a locurilor din patrimoniul cultural mondial.</p>
+<p>De la căderea Cortinei de Fier, Praga a devenit unul dintre cele mai populare destinații turistice din Europa și din lume. Praga este pe locul al șaselea în topul celor mai vizitate orașe europene după Londra, Paris, Roma, Madrid și Berlin.</p>
+<p>Praga este cunoscută și admirată pentru o colecție întreagă de ceasuri cu cadran montate pe cele mai frumoase edificii din oraș.</p>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><b>Realizat de:</b></p>
+        <p><b>Dan Teodora-Alexandra</b></p>
+        <p><b>Liceul Teoretic "Pavel Dan"</b></p>
+        <p><b>Clasa a XII-a A</b></p>
+    </div>
+
+</div>
+
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>

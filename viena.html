@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CDC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="design1.css">
+</head>
+<body>
+<div class="container">
+    <img src="orase.jpg" alt="DesenOrase">
+    <div class="center"><b>Ora&#351e europene</b></div>
+</div>
+<br>
+<ul>
+    <li><a href="index.html">Prima pagin&#259</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Ora&#351e</a>
+        <div class="dropdown-content">
+            <a href="paris.html">Paris</a>
+            <a href="londra.html">Londra</a>
+            <a href="roma.html">Roma</a>
+            <a href="amsterdam.html">Amsterdam</a>
+            <a href="viena.html">Viena</a>
+            <a href="atena.html">Atena</a>
+            <a href="bucuresti.html">Bucuresti</a>
+            <a href="copenhaga.html">Copenhaga</a>
+            <a href="budapesta.html">Budapesta</a>
+            <a href="praga.html">Praga</a>
+        </div>
+    </li>
+    <li><a href="galerie.html">Galerie</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li style="float:right" id="myBtn"><a href="#contact">Contact</a></li>
+</ul>
+<br>
+<div class="text"><img src="viena.jpg" align="left"/>
+<p>Viena (învechit Beciu, în germană Wien, în maghiară Bécs) este capitala Austriei. Orașul este situat în extremitatea răsăriteană a acestei republici federale, în landul (regiunea autonomă) Viena, și este traversat de Dunăre. Regiunea autonomă Viena este, cu cei aproape două milioane de locuitori ai săi, ce reprezintă un sfert din populația totală a Austriei, al zecelea oraș ca mărime din cadrul Uniunii Europene.</p>
+<p>Populat de 1,8 milioane de locuitori, Viena este un important centru politic internațional (datorită neutralității postbelice a Austriei și situării în partea centrală a Europei), unde își au sediul organizații de primă mărime, ca: Organizația Națiunilor Unite(ONU), Organizația Țărilor Exportatoare de Petrol și alte diverse agenții, între care Agenția Internațională pentru Energie Atomică. Această agenție își are sediul, alături de cel al ONU, într-unul dintre complexele așa-numitului centru UNO-city, aproape de Dunăre.</p>
+<p>Orașul a fost secole la rând capitală imperială și reședință a familiei imperiale de Habsburg, ceea ce a dus la dezvoltarea sa ca unul dintre cele mai importante centre culturale și politice ale Europei. Cotat fiind drept al patrulea oraș pe plan mondial, cu o populație pe atunci de două milioane de locuitori, Viena era depășită doar de Londra, New York și Paris. La sfârșitul primului război mondial capitala Austriei a pierdut un sfert din populația sa. La propunerea Republicii Austria, centrul vechi al orașului Viena precum și castelul Schönbrunn, mărturii vii ale domniei familiei imperiale de Habsburg, au fost trecute de UNESCO pe lista monumentelor patrimoniului mondial.</p>
+<p>De-a lungul timpului Viena a fost capitala Sfântului Imperiu Roman de Națiune Germană, a Imperiului Austriac și, între 1867-1918, a Imperiului Austro-Ungar. Aici s-a desfășurat Congresul de la Viena în anul 1815.</p>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><b>Realizat de:</b></p>
+        <p><b>Dan Teodora-Alexandra</b></p>
+        <p><b>Liceul Teoretic "Pavel Dan"</b></p>
+        <p><b>Clasa a XII-a A</b></p>
+    </div>
+
+</div>
+
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>

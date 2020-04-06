@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CDC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="design1.css">
+</head>
+<body>
+<div class="container">
+    <img src="orase.jpg" alt="DesenOrase">
+    <div class="center"><b>Ora&#351e europene</b></div>
+</div>
+<br>
+<ul>
+    <li><a href="index.html">Prima pagin&#259</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Ora&#351e</a>
+        <div class="dropdown-content">
+            <a href="paris.html">Paris</a>
+            <a href="londra.html">Londra</a>
+            <a href="roma.html">Roma</a>
+            <a href="amsterdam.html">Amsterdam</a>
+            <a href="viena.html">Viena</a>
+            <a href="atena.html">Atena</a>
+            <a href="bucuresti.html">Bucuresti</a>
+            <a href="copenhaga.html">Copenhaga</a>
+            <a href="budapesta.html">Budapesta</a>
+            <a href="praga.html">Praga</a>
+        </div>
+    </li>
+    <li><a href="galerie.html">Galerie</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li style="float:right" id="myBtn"><a href="#contact">Contact</a></li>
+</ul>
+<br>
+<div class="text"><img src="copenhaga.jpg" align="left"/>
+<p>Copenhaga (daneză København) este capitala Danemarcei, fiind situată pe coasta orientală a insulei Sjælland și în mica insulă Amager, față în față cu strâmtoarea Øresund. Orașele suedeze Malmö și Landskrona se află pe coasta opusă.</p>
+<p>Numele său din daneză, København (română Portul comercianților) amintește de poziția sa strategică la Marea Baltică.</p>
+<p>Populația daneză a regiunii metropolitane a Copenhagăi este de 1.800.000 locuitori, din care o treime locuiește în localitatea Frederiksberg, o treime în comitatul Copenhaga, iar restul în celelalte localități din regiune. Regiunea Øresund, care se întinde din estul insulei Sjælland până în vestul provinciei Skåne (în Suedia), are o populație de 2.800.000 persoane.</p>
+<p>Mica Sirenă, amplasată pe o stâncă rotundă din portul Langelinie, este una dintre cele mai cunoscute atracții turistice din Danemarca. Sculptura, cu o înălțime de 1,25 m și o greutate de 175 kg, expusă festiv la data de 25 august 1913, este creația sculptorului Edvard Eriksen. Capul sirenei a fost modelat după balerina Ellen Price, iar trupul nud după corpul soției sculptorului. Anual, sculptura este admirată de peste un milion de turiști. De menționat că originalul sculpturii se află păstrat într-un loc secret din Danemarca, în port aflându-se în prezent numai o copie. Statuia de bronz Mica sirenă, comoara Danemarcei, a părăsit Copenhaga, pentru prima dată în aproape 100 de ani, pentru a fi plasată în pavilionul danez al Expoziției Mondiale din 2010 deschisă în Shanghai între 1 mai și 31 octombrie 2010.</p>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><b>Realizat de:</b></p>
+        <p><b>Dan Teodora-Alexandra</b></p>
+        <p><b>Liceul Teoretic "Pavel Dan"</b></p>
+        <p><b>Clasa a XII-a A</b></p>
+    </div>
+
+</div>
+
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
